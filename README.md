@@ -1,274 +1,220 @@
-# 📘 Metodologia Scrum – Guia Didático e Completo
-
-## 📌 O que é Scrum?
-
-Scrum é um framework ágil utilizado para gerenciamento e desenvolvimento de projetos, principalmente na área de tecnologia e desenvolvimento de software. Ele é baseado em ciclos curtos de trabalho chamados **Sprints**, promovendo entregas frequentes, melhoria contínua e adaptação rápida a mudanças.
-
-O Scrum foi formalizado por **:contentReference[oaicite:0]{index=0}** e **:contentReference[oaicite:1]{index=1}** na década de 1990, e desde então se tornou um dos frameworks ágeis mais utilizados no mundo.
+# 📘 Scrum – Resumo Explicativo dos Conceitos Mais Importantes
 
 ---
 
-# 🧩 Estrutura do Scrum
+# 🧱 Pilares do Scrum
 
-O Scrum é baseado em três pilares fundamentais:
+O Scrum se baseia em três pilares fundamentais:
 
-## 🔎 1. Transparência
-Todos os envolvidos devem ter visibilidade clara sobre o trabalho, progresso e objetivos.
+| Pilar | Explicação |
+|--------|------------|
+| Transparência | Todos devem ter clareza sobre tarefas, prioridades e progresso. Isso evita ruídos e desalinhamentos. |
+| Inspeção | O trabalho é revisado com frequência (principalmente nas cerimônias) para identificar problemas. |
+| Adaptação | Sempre que algo não estiver funcionando bem, ajustes devem ser feitos rapidamente. |
 
-## 🔍 2. Inspeção
-O trabalho e os processos são frequentemente avaliados para identificar melhorias.
-
-## 🔄 3. Adaptação
-Quando problemas são identificados, ajustes devem ser feitos rapidamente.
+Esses três pilares garantem controle e evolução constante do projeto.
 
 ---
 
 # 👥 Papéis no Scrum
 
-O Scrum define três papéis principais:
-
 ## 🧑‍💼 Product Owner (PO)
 
-O **Product Owner** é o responsável por maximizar o valor do produto e gerenciar o **Product Backlog**.
+É o responsável por **maximizar o valor do produto**.
 
-### Responsabilidades:
-- Definir claramente os itens do Product Backlog
-- Priorizar as tarefas de acordo com o valor para o negócio
-- Garantir que o time entenda os requisitos
-- Tomar decisões sobre o produto
+- Define prioridades
+- Organiza o Product Backlog
+- Decide o que deve ser feito primeiro
+- Representa os interesses do cliente
 
-### Características importantes:
-- Boa comunicação
-- Visão estratégica
-- Capacidade de priorização
-- Entendimento do negócio
-
-O Product Owner é a ponte entre stakeholders (clientes, gestores, usuários) e o time de desenvolvimento.
+📌 Ponto importante: o PO decide **o que** será feito, mas não **como** será feito.
 
 ---
 
 ## 🧑‍🏫 Scrum Master
 
-O **Scrum Master** é o facilitador do time. Ele garante que o Scrum seja entendido e aplicado corretamente.
+É o facilitador do processo.
 
-### Responsabilidades:
-- Remover impedimentos do time
-- Garantir que as cerimônias aconteçam
-- Proteger o time de interferências externas
-- Promover melhoria contínua
-- Ensinar práticas ágeis
+- Garante que o Scrum seja aplicado corretamente
+- Remove impedimentos
+- Ajuda o time a melhorar continuamente
+- Protege o time de interferências externas
 
-O Scrum Master **não é chefe do time**, ele atua como líder servidor (servant leader).
+📌 Ele não é gerente do time. Atua como líder servidor (servant leader).
 
 ---
 
 ## 👨‍💻 Time de Desenvolvimento
 
-O **Time de Desenvolvimento** é responsável por transformar os itens do backlog em incrementos de produto prontos.
+Responsável por transformar backlog em incremento funcional.
 
-### Características:
 - Autogerenciável
 - Multidisciplinar
-- Colaborativo
+- Decide como executar as tarefas
 - Responsável pela qualidade da entrega
 
-O time decide **como** o trabalho será feito.
+📌 O time decide **como** o trabalho será feito.
 
 ---
 
-# 📦 Artefatos do Scrum
+# 📦 Artefatos
 
 ## 📋 Product Backlog
 
 Lista priorizada de tudo que pode ser necessário no produto.
 
-Contém:
-- Funcionalidades
-- Melhorias
-- Correções
-- Requisitos técnicos
-
-O Product Owner é responsável por mantê-lo organizado e atualizado.
+- Criado e mantido pelo Product Owner
+- Está sempre evoluindo
+- Pode mudar conforme feedbacks
 
 ---
 
 ## 📝 Sprint Backlog
 
-Conjunto de itens selecionados do Product Backlog para serem desenvolvidos durante a Sprint.
+Conjunto de itens selecionados para a Sprint atual.
 
-Inclui:
-- Itens escolhidos
-- Plano de execução
-- Tarefas técnicas
-
-É de responsabilidade do Time de Desenvolvimento.
+- Definido durante a Sprint Planning
+- Pertence ao time de desenvolvimento
+- Não deve ser alterado durante a Sprint (exceto ajustes internos)
 
 ---
 
 ## 🚀 Incremento
 
-É a soma de todos os itens concluídos durante a Sprint, que deve estar em estado potencialmente utilizável.
+É o resultado final da Sprint.
+
+- Deve estar em estado utilizável
+- Precisa cumprir a Definition of Done
+- Representa valor entregue
 
 ---
 
-# 🔁 Sprints
+# 🔁 Sprint
 
-A **Sprint** é um ciclo de trabalho com duração fixa (normalmente de 1 a 4 semanas).
+É o ciclo de trabalho com duração fixa (1 a 4 semanas).
 
 Durante a Sprint:
-- O escopo não deve ser alterado
-- O time trabalha nos itens selecionados
 - O objetivo da Sprint deve ser respeitado
+- Não se altera o escopo externamente
+- O time trabalha focado nas tarefas selecionadas
 
-Cada Sprint resulta em um incremento funcional do produto.
-
----
-
-# 📅 Eventos (Cerimônias) do Scrum
-
-## 📌 1. Sprint Planning (Planejamento da Sprint)
-
-Reunião que acontece no início da Sprint.
-
-### Objetivos:
-- Definir o que será feito
-- Definir como será feito
-- Estabelecer o objetivo da Sprint
-
-Participam:
-- Product Owner
-- Scrum Master
-- Time de Desenvolvimento
+📌 Cada Sprint gera uma entrega funcional.
 
 ---
 
-## ☀️ 2. Daily Scrum (Reunião Diária)
+# 📅 Eventos (Cerimônias)
 
-Reunião rápida (até 15 minutos), realizada diariamente.
+## 📌 Sprint Planning
 
-### Cada membro responde:
-1. O que fiz ontem?
-2. O que farei hoje?
-3. Existe algum impedimento?
+Define:
+- O que será feito
+- Como será feito
+- Qual é o objetivo da Sprint
 
-Objetivo:
-- Sincronizar o time
-- Identificar obstáculos
-- Manter foco no objetivo da Sprint
+É o momento de planejamento estratégico da Sprint.
 
 ---
 
-## 👀 3. Sprint Review
+## ☀️ Daily Scrum
 
-Realizada ao final da Sprint.
+Reunião diária de até 15 minutos.
 
-### Objetivo:
-- Apresentar o que foi desenvolvido
-- Coletar feedback dos stakeholders
-- Adaptar o Product Backlog se necessário
+Objetivos:
+- Alinhar o time
+- Identificar impedimentos
+- Garantir foco no objetivo
 
-É uma reunião colaborativa e focada no produto.
-
----
-
-## 🔄 4. Sprint Retrospective
-
-Acontece após a Sprint Review e antes da próxima Sprint.
-
-### Objetivo:
-- Avaliar o processo
-- Identificar melhorias
-- Discutir o que funcionou e o que pode melhorar
-
-Foco:
-- Pessoas
-- Processos
-- Ferramentas
-- Colaboração
+Não é reunião para resolver problemas, é para sincronizar.
 
 ---
 
-# 🏷️ Conceitos Importantes
+## 👀 Sprint Review
 
-## 📌 Definição de Pronto (Definition of Done - DoD)
+- Apresenta o incremento
+- Coleta feedback dos stakeholders
+- Pode gerar novas ideias para o backlog
 
-É o conjunto de critérios que determina quando uma tarefa está realmente concluída.
+Foco no produto.
+
+---
+
+## 🔄 Sprint Retrospective
+
+- Analisa o processo
+- Identifica melhorias
+- Ajusta forma de trabalho
+
+Foco na equipe e no processo.
+
+---
+
+# 🏷️ Conceitos Essenciais
+
+## ✅ Definition of Done (DoD)
+
+Conjunto de critérios que define quando algo está realmente concluído.
 
 Exemplo:
 - Código revisado
-- Testes realizados
-- Documentação atualizada
-- Implantado em ambiente de teste
+- Testado
+- Documentado
+- Pronto para uso
+
+Sem cumprir o DoD, não é considerado pronto.
 
 ---
 
-## 📌 User Stories
+## 📝 User Story
 
-Forma comum de descrever funcionalidades.
+Forma simples de descrever funcionalidades.
 
-Estrutura:
-> Como [tipo de usuário], quero [ação], para [benefício].
+Formato:
+> Como [usuário], quero [ação], para [benefício].
 
-Exemplo:
-> Como cliente, quero recuperar minha senha para acessar minha conta novamente.
-
----
-
-## 📌 Estimativas
-
-No Scrum, o esforço é geralmente estimado em **Story Points**, que medem complexidade e esforço relativo.
-
-Técnica comum:
-- Planning Poker
+Ajuda a manter foco no valor para o usuário.
 
 ---
 
-## 📌 Velocity (Velocidade)
+## 📊 Story Points
 
-Mede a quantidade média de pontos entregues por Sprint.
+Mede esforço relativo, não tempo.
 
-Ajuda no planejamento futuro.
-
----
-
-# 🔄 Fluxo Completo de uma Sprint
-
-1. Product Owner organiza o Product Backlog
-2. Time realiza Sprint Planning
-3. Sprint começa
-4. Daily Scrum acontece todos os dias
-5. Trabalho é desenvolvido
-6. Sprint Review apresenta o incremento
-7. Sprint Retrospective melhora o processo
-8. Nova Sprint começa
-
-Esse ciclo se repete até que o produto atinja seus objetivos.
+Leva em consideração:
+- Complexidade
+- Risco
+- Volume de trabalho
 
 ---
 
-# 🧠 Mentalidade Ágil no Scrum
+## 🚀 Velocity
 
-O Scrum é baseado nos valores do **:contentReference[oaicite:2]{index=2}**:
+Quantidade média de Story Points entregues por Sprint.
 
-- Indivíduos e interações mais que processos e ferramentas
-- Software funcionando mais que documentação abrangente
-- Colaboração com o cliente mais que negociação de contratos
-- Responder a mudanças mais que seguir um plano
-
-O foco está na adaptação contínua, entrega de valor e colaboração.
+Ajuda a prever capacidade futura do time.
 
 ---
 
-# 📚 Quando utilizar Scrum
+## 🔄 Fluxo Estruturado da Sprint
 
-O Scrum é indicado para:
-- Projetos complexos
-- Ambientes com mudanças frequentes
-- Desenvolvimento incremental
-- Produtos digitais
+1. **Product Owner organiza e prioriza o Product Backlog**  
+   Define o que gera mais valor e prepara os itens para a próxima Sprint.
 
-Ele permite aprendizado contínuo e ajustes rápidos ao longo do desenvolvimento.
+2. **Sprint Planning é realizada**  
+   O time seleciona os itens prioritários e define o objetivo da Sprint, planejando como o trabalho será executado.
+
+3. **A Sprint é iniciada e o trabalho é desenvolvido**  
+   O time transforma os itens do Sprint Backlog em incremento funcional.
+
+4. **Daily Scrum acontece todos os dias**  
+   O time se alinha, acompanha o progresso e identifica impedimentos.
+
+5. **Sprint Review é realizada**  
+   O incremento é apresentado aos stakeholders e feedbacks são coletados.
+
+6. **Sprint Retrospective acontece**  
+   O time avalia o processo e define melhorias para a próxima Sprint.
+
+7. **Nova Sprint começa**  
+   O ciclo se repete com ajustes e melhorias contínuas.
 
 ---
-
-Este conteúdo apresenta a estrutura completa da metodologia Scrum de forma didática e detalhada, abordando papéis, eventos, artefatos e conceitos fundamentais.
